@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: compute-service1
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+server:
+  port: 8013
+  
+profile: hello-spring-cloud
+
+#忽略权限拦截
+management:
+  security:
+    enabled: false
+  
