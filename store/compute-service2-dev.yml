@@ -1,6 +1,6 @@
 spring:
   application:
-    name: compute-service2
+    name: compute-service
   rabbitmq:
     host: localhost
     port: 5672
