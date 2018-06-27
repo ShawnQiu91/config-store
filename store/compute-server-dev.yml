@@ -16,6 +16,11 @@ profile: hello-spring-cloud
 management:
   security:
     enabled: false
+    
+feign:
+  hystrix:
+    enabled: true
+    
 #设置负载均衡策略
 compute-service:
   ribbon:
