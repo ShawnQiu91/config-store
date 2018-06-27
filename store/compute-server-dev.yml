@@ -16,4 +16,8 @@ profile: hello-spring-cloud
 management:
   security:
     enabled: false
+#设置负载均衡策略
+compute-service:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.ZoneAvoidanceRule
   
