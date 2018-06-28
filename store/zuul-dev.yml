@@ -5,3 +5,11 @@ spring:
 server:
   port: 8020
   
+# security 加密,用户认证
+security:
+  basic:
+    enabled: true
+  user:
+    name: zuul
+    password: password123
+  
