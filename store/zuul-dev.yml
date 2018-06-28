@@ -5,7 +5,8 @@ spring:
 server:
   port: 8020
   
-# security 加密,用户认证
+#security 加密,用户认证
+#安全认证配置失效，待查找原因
 security:
   basic:
     enabled: true
