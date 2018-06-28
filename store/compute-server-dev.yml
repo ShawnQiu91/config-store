@@ -10,7 +10,7 @@ spring:
 server:
   port: 8011
   
-hello: hello-spring-cloud
+profile: hello-spring-cloud
 
 #忽略权限拦截
 management:
@@ -27,9 +27,5 @@ compute-service:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.ZoneAvoidanceRule
    
-#配置微服务跟踪sleuth   
-logging: 
-  level: 
-    root: INFO
-      org.springframework.cloud.sleuth: DEBUG
+
   
