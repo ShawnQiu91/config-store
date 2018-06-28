@@ -27,5 +27,10 @@ compute-service:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.ZoneAvoidanceRule
    
-
+# 配置微服务跟踪sleuth
+logging:
+  level:
+    root: INFO
+    #org.springframework.web.servlet.DispatcherServlet: DEBUG
+    org.springframework.cloud.sleuth: DEBUG
   
